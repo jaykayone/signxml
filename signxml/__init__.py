@@ -339,7 +339,7 @@ class xmldsig(object):
         else:
             cert_chain = cert
 
-        self.payload_c14n = self._get_payload_c14n(method, c14n_algorithm=c14n_algorithm)
+        self.payload_c14n = self._get_payload_c14n(method, c14n_algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315")
         self.digest = self._get_digest(self.payload_c14n, self._get_digest_method_by_tag(self.digest_alg))
 
         signed_info = SubElement(self.sig_root, ds_tag("SignedInfo"), nsmap=self.namespaces)
