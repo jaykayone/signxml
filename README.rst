@@ -1,3 +1,11 @@
+About this fork
+================================
+This work contains a small modification to work with the luxembourgish CTIE DDJ framework
+
+To Install this fork:
+
+    pip install git+https://github.com/Geoportail-Luxembourg/signxml.git
+
 SignXML: XML Signature in Python
 ================================
 *SignXML* is an implementation of the W3C `XML Signature <http://en.wikipedia.org/wiki/XML_Signature>`_ standard in
