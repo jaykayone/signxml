@@ -2,7 +2,7 @@ About this fork
 ================================
 This work contains a small modification to work with the luxembourgish CTIE DDJ framework
 
-To Install this fork:
+**To Install this fork::
 
     pip install git+https://github.com/Geoportail-Luxembourg/signxml.git
 
